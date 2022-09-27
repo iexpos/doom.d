@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: lk
+# name: my/jupyter-python...
+# uuid: my/jupyter
+# key: my/jupyter
+# --
+#+begin_src jupyter-python :session ss :async yes
+`%`$0
+#+end_src
