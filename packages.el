@@ -57,9 +57,9 @@
 
 ;; (package! ein :pin "c629877ce3a6a14f00468c0025919080c85a216367e6847ae6341ab7fc7488f5eb8c")
 
-;; (package! pyim-basedict
-;;   :recipe (:host nil :repo "https://github.com/tumashu/pyim-basedict.git"
-;;            :files ("*.el" "*.pyim")))
+(package! pyim-basedict
+  :recipe (:host nil :repo "https://github.com/tumashu/pyim-basedict.git"
+           :files ("*.el" "*.pyim")))
 
 ;; (package! gitconfig-mode
 ;; 	  :recipe (:host github :repo "magit/git-modes"
@@ -91,3 +91,5 @@
 (unpin! docker)
 (package! docker
   :recipe (:host github :repo "iexpos/docker.el" :branch "master"))
+
+(package! company-tabnine :recipe (:host github :repo "TommyX12/company-tabnine"))
